@@ -1,0 +1,3 @@
+[submodule "libxr/deps/glfw"]
+	path = libxr/deps/glfw
+	url = https://github.com/glfw/glfw
