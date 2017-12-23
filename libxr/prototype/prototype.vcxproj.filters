@@ -4,10 +4,44 @@
     <Filter Include="src">
       <UniqueIdentifier>{06eac8c8-a2d1-487d-8be9-021fd94689d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5585850d-3a85-474e-acae-90b627d6d877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{ba658802-58e7-42ea-a493-da08d10e669a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cc">
       <Filter>src</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\StaticMeshSceneNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\basic.comp">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\passthrough.frag">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\passthrough.geom">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\passthrough.tesc">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\passthrough.tese">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="resources\passthrough.vert">
+      <Filter>resources</Filter>
+    </None>
   </ItemGroup>
 </Project>

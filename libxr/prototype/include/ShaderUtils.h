@@ -1,0 +1,4 @@
+#ifndef SHADERUTILS_H_
+#define SHADERUTILS_H_
+
+#endif // SHADERUTILS_H_

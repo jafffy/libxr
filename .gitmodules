@@ -1,3 +1,6 @@
 [submodule "libxr/deps/glfw"]
 	path = libxr/deps/glfw
 	url = https://github.com/glfw/glfw
+[submodule "libxr/deps/glm"]
+	path = libxr/deps/glm
+	url = https://github.com/g-truc/glm.git
